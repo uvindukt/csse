@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1fb72427-f37e-4974-b8b8-c503d20fabd9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Inventory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/InventoryItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NavigationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ProfilePrompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/SignIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/css/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/font/GoogleSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/image/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/image/header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/resources/ProfilePrompts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1RJgMcHYayOz8d8QGrOGsKjW1yz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.15.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Uvindu Sanjana\WebstormProjects\csse\service" />
+      <recent name="C:\Users\Uvindu Sanjana\WebstormProjects\csse" />
+      <recent name="C:\Users\Uvindu Sanjana\WebstormProjects\csse\routes" />
+      <recent name="C:\Users\Uvindu Sanjana\WebstormProjects\csse\model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fb72427-f37e-4974-b8b8-c503d20fabd9" name="Default Changelist" comment="" />
+      <created>1569390565580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569390565580</updated>
+      <workItem from="1569390566739" duration="14318000" />
+      <workItem from="1569469975779" duration="3104000" />
+      <workItem from="1569493323659" duration="4562000" />
+      <workItem from="1569724285177" duration="7001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
