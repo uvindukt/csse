@@ -11,7 +11,7 @@ router.post('/', (req, res) => {
     ItemController
         .addItem(req.body)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -23,7 +23,7 @@ router.get('/', (req, res) => {
     ItemController
         .getAll()
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -35,7 +35,7 @@ router.get('/', (req, res) => {
     ItemController
         .getById(req.body.id)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -47,7 +47,7 @@ router.get('/', (req, res) => {
     ItemController
         .getByName(req.body.name)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -55,11 +55,11 @@ router.get('/', (req, res) => {
  * @desc Increment item quantity.
  * @access Private.
  */
-router.put('/', (req, res) => {
+router.put('/increment', (req, res) => {
     ItemController
         .increment(req.body.id, req.body.quantity)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -67,11 +67,11 @@ router.put('/', (req, res) => {
  * @desc Decrement item quantity.
  * @access Private.
  */
-router.put('/', (req, res) => {
+router.put('/decrement', (req, res) => {
     ItemController
         .decrement(req.body.id, req.body.quantity)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 module.exports = router;

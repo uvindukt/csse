@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
     OrderController
         .addOrder(req.body)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 
@@ -26,7 +26,7 @@ router.get('/', (req, res) => {
     OrderController
         .getAll()
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 
@@ -40,7 +40,7 @@ router.get('/status', (req, res) => {
     OrderController
         .getByStatus(req.body.status)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 
@@ -54,7 +54,7 @@ router.get('/id', (req, res) => {
     OrderController
         .getById(req.body.id)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 
@@ -68,7 +68,7 @@ router.put('/', (req, res) => {
     OrderController
         .updateOrder(req.body.id, req.body.order)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 
@@ -82,7 +82,7 @@ router.delete('/', (req, res) => {
     OrderController
         .removeOrder(req.body.id)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 
 });
 

@@ -115,8 +115,8 @@ class OrderController {
 
                 if (order.status !== 'APPROVED') {
 
-                    const updatedOrder = Order.findByIdAndUpdate(id, data);
-                    resolve({status: 200, order: updatedOrder});
+                    const updatedOrder = await Order.findByIdAndUpdate(id, data, {new: true});
+                    resolve({status: 200, order: updatedOrder, msg: 'Order updated.'});
 
                 } else {
 
@@ -150,8 +150,8 @@ class OrderController {
 
                 if (order.status !== 'APPROVED') {
 
-                    const deletedOrder = Order.findByIdAndRemove(id);
-                    resolve({status: 200, order: deletedOrder});
+                    const deletedOrder = await Order.findByIdAndRemove(id);
+                    resolve({status: 200, order: deletedOrder, msg: 'Order deleted.'});
 
                 } else {
 

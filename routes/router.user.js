@@ -13,7 +13,7 @@ router.post('/', authorize, validate, (req, res) => {
     UserController
         .createUser(req.body)
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 /**
@@ -25,7 +25,7 @@ router.get('/', authorize, (req, res) => {
     UserController
         .getAllUsers()
         .then(result => res.json(result))
-        .catch(err => res.status(err.status).json(err));
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
 module.exports = router;
