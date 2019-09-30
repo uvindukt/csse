@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb72427-f37e-4974-b8b8-c503d20fabd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Inventory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/InventoryItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NavigationBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ProfilePrompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SignIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/css/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/font/GoogleSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/image/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/image/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/image/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/resources/ProfilePrompts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/controller.order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/model.order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/router.order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -102,6 +84,8 @@
       <workItem from="1569469975779" duration="3104000" />
       <workItem from="1569493323659" duration="4562000" />
       <workItem from="1569724285177" duration="7001000" />
+      <workItem from="1569766711930" duration="327000" />
+      <workItem from="1569816404973" duration="7395000" />
     </task>
     <servers />
   </component>

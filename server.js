@@ -33,6 +33,7 @@ mongoose
 app.use('/api/auth', require('./routes/router.auth'));
 app.use('/api/user', require('./routes/router.user'));
 app.use('/api/item', require('./routes/router.item'));
+app.use('/api/order', require('./routes/router.order'));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, err => err ? console.log(err) : console.log(`Server is listening to port ${PORT}`));
