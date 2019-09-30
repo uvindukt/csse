@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb72427-f37e-4974-b8b8-c503d20fabd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Inquiry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/OrderInquiry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/OrderItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavigationBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/controller.order.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/router.item.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/router.item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/router.order.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/router.order.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ProfilePrompt.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ProfilePrompt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/resources/ProfilePrompts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/resources/ProfilePrompts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/controller.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/router.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/router.user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
@@ -91,7 +85,7 @@
       <workItem from="1569493323659" duration="4562000" />
       <workItem from="1569724285177" duration="7001000" />
       <workItem from="1569766711930" duration="327000" />
-      <workItem from="1569816404973" duration="13764000" />
+      <workItem from="1569816404973" duration="16416000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1569824488359</created>
@@ -107,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569825653843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated">
+      <created>1569836502594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569836502594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

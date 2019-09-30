@@ -28,4 +28,16 @@ router.get('/', authorize, (req, res) => {
         .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
 });
 
+/**
+ * @route PUT /api/user/{email}
+ * @desc Updates a user by email.
+ * @access Private.
+ */
+router.put('/email/:email', (req, res) => {
+    UserController
+        .updateUserByEmail(req.params.email, req.body)
+        .then(result => res.json(result))
+        .catch(err => err.status ? res.status(err.status).json(err) : res.json(err));
+});
+
 module.exports = router;

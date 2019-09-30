@@ -121,6 +121,42 @@ class UserController {
 
     }
 
+    /**
+     * Updates a user by email.
+     * @param email
+     * @param data
+     * @returns {Promise<JSON>}
+     */
+    static updateUserByEmail(email, data) {
+
+        return new Promise(async (resolve, reject) => {
+
+            try {
+
+                const user = await User.findOne({email: email});
+
+                if (user) {
+
+                    const updatedUser = await User.findByIdAndUpdate(user._id, data, {new: true});
+                    resolve({status: 200, success: 'User updated.', user: updatedUser});
+
+                } else {
+
+                    resolve({status: 200, msg: 'Could not find specified user.'});
+
+                }
+
+
+            } catch (err) {
+
+                reject({status: 500, msg: "Something went wrong.", err})
+
+            }
+
+        })
+
+    }
+
 }
 
 module.exports = UserController;
