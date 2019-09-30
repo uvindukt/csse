@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb72427-f37e-4974-b8b8-c503d20fabd9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/controller.order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/model.order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/router.order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Inventory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Inventory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/NavigationBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/NavigationBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/Order.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Order.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +82,16 @@
       <workItem from="1569493323659" duration="4562000" />
       <workItem from="1569724285177" duration="7001000" />
       <workItem from="1569766711930" duration="327000" />
-      <workItem from="1569816404973" duration="7395000" />
+      <workItem from="1569816404973" duration="8170000" />
     </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1569824488359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569824488359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
