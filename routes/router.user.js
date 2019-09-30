@@ -29,7 +29,7 @@ router.get('/', authorize, (req, res) => {
 });
 
 /**
- * @route PUT /api/user/{email}
+ * @route PUT /api/user/:email
  * @desc Updates a user by email.
  * @access Private.
  */
