@@ -115,6 +115,7 @@ class OrderController {
 
                 if (order.status !== 'APPROVED') {
 
+                    data.date = await Date.now();
                     const updatedOrder = await Order.findByIdAndUpdate(id, data, {new: true});
                     resolve({status: 200, order: updatedOrder, msg: 'Order updated.'});
 
