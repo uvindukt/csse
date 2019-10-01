@@ -137,8 +137,27 @@ class UserController {
 
                 if (user) {
 
-                    const updatedUser = await User.findByIdAndUpdate(user._id, data, {new: true});
-                    resolve({status: 200, success: 'User updated.', user: updatedUser});
+                    if (data.password) {
+
+                        if (!data.currentPassword)
+                            resolve({ status: 200, msg: "Please enter current password." });
+                        else if (!await bcrypt.compare(data.currentPassword, user.password))
+                            resolve({ status: 200, msg: "Invalid Credentials." });
+                        else if (data.password !== data.confirmPassword)
+                            resolve({ status: 200, msg: "Passwords does not match." });
+
+                        const salt = await bcrypt.genSalt(10);
+                        data.password = await bcrypt.hash(data.password, salt);
+
+                        const updatedUser = await User.findByIdAndUpdate(user._id, data, {new: true});
+                        resolve({status: 200, success: 'User updated.', user: updatedUser});
+
+                    } else {
+
+                        const updatedUser = await User.findByIdAndUpdate(user._id, data, {new: true});
+                        resolve({status: 200, success: 'User updated.', user: updatedUser});
+
+                    }
 
                 } else {
 

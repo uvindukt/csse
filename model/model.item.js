@@ -18,6 +18,11 @@ const ItemSchema = mongoose.Schema({
         required: true
     },
 
+    restricted: {
+        type: Boolean,
+        default: false
+    }
+
 });
 
 module.exports = mongoose.model('Item', ItemSchema);

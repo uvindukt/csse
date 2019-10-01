@@ -31,6 +31,7 @@ mongoose
     .then(() => console.log("Connected to MongoDB"))
     .catch(err => console.log(err));
 
+//Routes
 app.use('/api/auth', require('./routes/router.auth'));
 app.use('/api/user', require('./routes/router.user'));
 app.use('/api/item', require('./routes/router.item'));
