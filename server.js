@@ -1,16 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const PROPERTIES = require("./config/keys");
 
 const app = express();
 
 //Frontend Access Control.
 app.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Requested-With, Content-Type, Accept, x-authorize-type, x-authorize-token"
-    );
-    res.header("Access-Control-Allow-Methods", "POST, PUT, GET, OPTIONS, DELETE");
+    res.header("Access-Control-Allow-Origin", PROPERTIES.origin);
+    res.header("Access-Control-Allow-Headers", PROPERTIES.headers);
+    res.header("Access-Control-Allow-Methods", PROPERTIES.methods);
     next();
 });
 
@@ -25,7 +23,7 @@ const dbOpts = {
 };
 
 //Database Connection.
-const db = require("./config/keys").mongoURI;
+const db = PROPERTIES.mongoURI;
 mongoose
     .connect(db, dbOpts)
     .then(() => console.log("Connected to MongoDB"))
