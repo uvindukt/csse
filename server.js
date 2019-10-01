@@ -23,9 +23,8 @@ const dbOpts = {
 };
 
 //Database Connection.
-const db = PROPERTIES.mongoURI;
 mongoose
-    .connect(db, dbOpts)
+    .connect(PROPERTIES.mongoURI, dbOpts)
     .then(() => console.log("Connected to MongoDB"))
     .catch(err => console.log(err));
 
